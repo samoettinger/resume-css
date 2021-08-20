@@ -1,0 +1,312 @@
+body {
+  background: linear-gradient(135deg, #F2F2F2 0%, #A5C5C4 100%);
+}
+
+section {
+  height: 60vh;
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background-color: #376070;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.sidebar {
+  height: 47%;
+  width: 25%;
+  background-color: #f0f0f0;
+  position: relative;
+  padding: 25px;
+  border-radius: 15px 0 0 0;
+}
+
+.sidebar .fas, .sidebar .fab {
+  height: 5px;
+  width: 5px;
+  margin-right: 5px;
+}
+
+.sidebar #profile-pic {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 10px;
+}
+
+.sidebar li {
+  font-size: 12px;
+  color: white;
+}
+
+.sidebar .iconlist {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.sidebar .itemlist {
+  margin-right: 15px;
+}
+
+.sidebar .fullname {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.sidebar .fullname .firstname {
+  color: #243b44;
+  font-family: 'Oswald';
+  font-size: 40px;
+  font-weight: 200;
+  position: relative;
+  top: 10px;
+}
+
+.sidebar .fullname .lastname {
+  color: #243b44;
+  font-family: 'Oswald';
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.sidebar .fullname .occupation {
+  font-size: 8px;
+  font-family: 'MontSerrat', sans-serif;
+  color: #243b44;
+}
+
+.sidebar .personal-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+}
+
+.sidebar .personal-info li {
+  padding: 0 0 1px 0;
+}
+
+.sidebar .personal-info ._ {
+  color: #376070;
+}
+
+.sidebar .social-media-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+}
+
+.sidebar .social-media-container li {
+  padding: 0 0 1px 0;
+}
+
+.sidebar .social-media-container .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sidebar .title {
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  height: 30px;
+  width: 80%;
+  text-align: center;
+  background-color: #243b44;
+  padding: 5px;
+  margin: 12px auto;
+  -webkit-box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar .languages-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sidebar .languages-container .languages {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  border-radius: 0 15px 15px 0;
+  background-color: #f0f0f0;
+  padding: 50px;
+}
+
+main .content-left {
+  max-width: 50%;
+}
+
+main .content-left hr {
+  width: 50%;
+  margin: 0 auto 10px auto;
+}
+
+main .content-left .fas {
+  margin-right: 10px;
+}
+
+main .content-left .index {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #243b44;
+  color: #243b44;
+  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
+}
+
+main .content-left .about-me {
+  margin-bottom: 10px;
+}
+
+main .content-left .about-me p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  text-align: justify;
+}
+
+main .content-left .education {
+  margin-bottom: 10px;
+}
+
+main .content-left .education img {
+  height: 15px;
+  margin-right: 10px;
+}
+
+main .content-left .education p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+main .content-left .education .school {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #243b44;
+  font-weight: 600;
+}
+
+main .content-left .education .course {
+  font-family: 'MontSerrat', sans-serif;
+  font-size: 10px;
+}
+
+main .content-right {
+  max-width: 50%;
+  padding: 30px;
+  background-color: white;
+  border-radius: 15px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .content-right img {
+  height: 15px;
+  margin-right: 10px;
+}
+
+main .content-right p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  text-align: justify;
+  margin-bottom: 125px;
+}
+
+main .content-right a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main .content-right .fas {
+  margin-right: 10px;
+}
+
+main .content-right .index {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #243b44;
+  color: #243b44;
+  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
+}
+
+main .content-right .work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #243b44;
+  font-weight: 600;
+}
+
+main .content-right .occupation {
+  font-family: 'MontSerrat', sans-serif;
+  font-size: 10px;
+}
+
+main .content-right .title {
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  background-color: #243b44;
+  padding: 5px;
+  margin: 12px auto;
+  -webkit-box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+main .content-right .linklist {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+main .content-right .linklist hr {
+  margin: 10px 0;
+}
+
+main .divider {
+  min-width: 50px;
+}
+
+main .content-right:hover {
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+/*# sourceMappingURL=style.css.map */
