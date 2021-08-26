@@ -1,0 +1,196 @@
+body {
+  height: 100vh;
+  width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Lato', sans-serif;
+  background-color: #f3f3f3;
+}
+
+body header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #cf8a05;
+}
+
+body header div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+body header div img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin-right: 50px;
+}
+
+body header div .personal-info {
+  display: -ms-grid;
+  display: grid;
+  text-align: left;
+  -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body header div .personal-info .name {
+  font-family: 'Rokkitt', sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+body header div .personal-info .occupation {
+  font-family: 'Rokkitt', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+body header .contact {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+body main {
+  width: 75%;
+  margin: auto;
+}
+
+body main h2 {
+  color: #cf8a05;
+  font-family: 'Rokkitt', sans-serif;
+  font-size: 30px;
+  font-style: italic;
+}
+
+body main .personal-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #dedede;
+}
+
+body main .personal-profile h2 {
+  width: 400px;
+}
+
+body main .personal-profile p {
+  color: #444444;
+  font-size: 20px;
+  width: 100%;
+  text-align: justify;
+}
+
+body main .work-experience {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #dedede;
+}
+
+body main .work-experience h2 {
+  width: 400px;
+}
+
+body main .work-experience .container {
+  width: 100%;
+}
+
+body main .work-experience .container dd {
+  color: #444444;
+  font-size: 20px;
+}
+
+body main .work-experience .container .topic {
+  font-family: 'Rokkitt', sans-serif;
+  font-size: 30px;
+}
+
+body main .work-experience .container .details {
+  margin-bottom: 30px;
+}
+
+body main .work-experience .container .date {
+  color: #929292;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+body main .skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #dedede;
+}
+
+body main .skills h2 {
+  width: 400px;
+}
+
+body main .skills .skill-list {
+  -webkit-column-count: 3;
+          column-count: 3;
+  color: #444444;
+  font-size: 20px;
+  line-height: 25px;
+  width: 100%;
+}
+
+body main .education {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .education h2 {
+  width: 400px;
+}
+
+body main .education .container {
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+body main .education .container dd {
+  color: #444444;
+  font-size: 20px;
+}
+
+body main .education .container .topic {
+  color: #444444;
+  font-family: 'Rokkitt', sans-serif;
+  font-size: 30px;
+}
+
+body main .education .container .details {
+  margin-bottom: 30px;
+}
+
+body main .education .container .subject {
+  color: #929292;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=style.css.map */

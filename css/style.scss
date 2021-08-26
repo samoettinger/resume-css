@@ -1,0 +1,193 @@
+// Color Pallet
+
+$titles: #444444;
+$subtitles: #444444;
+$date: #929292;
+$contact: #181818;
+$details: #181818;
+$topic: #cf8a05;
+$divider_: #cf8a05;
+$divider_topic: #dedede;
+$background: #f3f3f3;
+
+body{
+     height: 100vh;
+     width: 75vw;
+     margin-left: auto;
+     margin-right: auto;
+     font-family: 'Lato', sans-serif;
+     background-color: $background;
+
+     header{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          padding: 0 50px;
+          margin-top: 40px;
+          margin-bottom: 40px;
+          padding-bottom: 40px;
+          border-bottom: 2px solid $divider_;
+          
+          div{
+               display: flex;
+               width: 100%;
+               
+               img{
+                    border-radius: 50%;
+                    height: 150px;
+                    width: 150px;
+                    margin-right: 50px;
+               }
+
+               .personal-info{
+                    display: grid;
+                    text-align: left;
+                    align-self: center;
+
+                    .name{
+                         font-family: 'Rokkitt', sans-serif;
+                         font-size: 70px;
+                         font-weight: 700;
+                    }
+
+                    .occupation{
+                         font-family: 'Rokkitt', sans-serif;
+                         font-size: 50px;
+                         font-weight: 400;
+                    }
+               }
+
+          }
+          
+          .contact{
+               font-size: 20px;
+               line-height: 30px;
+          }
+     }
+
+     main{
+          width: 75%;
+          margin: auto;
+          h2{
+               color: $topic;
+               font-family: 'Rokkitt', sans-serif;
+               font-size: 30px;
+               font-style: italic;
+          }
+
+          .personal-profile{
+               display: flex;
+               padding-bottom: 40px;
+               margin-bottom: 30px;
+               border-bottom: 1px solid $divider_topic;
+
+               h2{
+                    width: 400px;
+               }
+
+               p{
+                    color: $subtitles;
+                    font-size: 20px;
+                    width: 100%;
+                    text-align: justify;
+               }
+          }
+
+          .work-experience{
+               display: flex;
+               padding-bottom: 40px;
+               margin-bottom: 30px;
+               border-bottom: 1px solid $divider_topic;
+
+               h2{
+                    width: 400px;
+               }
+
+               .container{
+                    width: 100%;
+                    
+                    dd{
+                         color: $subtitles;
+                         font-size: 20px;
+
+                    }
+                    
+                    .topic{
+                         font-family: 'Rokkitt', sans-serif;
+                         font-size: 30px;
+                    }
+
+                    .details{
+                         margin-bottom: 30px;
+                    }
+
+                    .date{
+                         color: $date;
+                         font-family: 'Lato', sans-serif;
+                         font-size: 15px;
+                         font-style: italic;
+                         font-weight: 400;
+                         margin-bottom: 10px;
+                    }
+               }
+               
+          }
+
+          .skills{
+               display: flex;
+               padding-bottom: 40px;
+               margin-bottom: 30px;
+               border-bottom: 1px solid $divider_topic;
+
+               h2{
+                    width: 400px;
+               }
+
+               .skill-list{
+                    column-count: 3;
+                    color: $subtitles;
+                    font-size: 20px;
+                    line-height: 25px;
+                    width: 100%;
+               }
+          }
+
+          .education{
+               display: flex;
+
+               h2{
+                    width: 400px;
+               }
+
+               .container{
+                    width: 100%;
+                    margin-bottom: 70px;
+
+                    dd{
+                         color: $subtitles;
+                         font-size: 20px;
+
+                    }
+                    
+                    .topic{
+                         color: $subtitles;
+                         font-family: 'Rokkitt', sans-serif;
+                         font-size: 30px;
+                    }
+                    
+                    .details{
+                         margin-bottom: 30px;
+                    }
+
+                    .subject{
+                         color: $date;
+                         font-family: 'Lato', sans-serif;
+                         font-size: 15px;
+                         font-style: italic;
+                         font-weight: 400;
+                         margin-bottom: 20px;
+                    }
+               }
+          }
+     }
+}
